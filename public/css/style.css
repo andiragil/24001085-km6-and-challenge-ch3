@@ -1,0 +1,58 @@
+.btn-hijau {
+  background-color: #32b84c;
+  border-color: #32b84c;
+}
+.btn-hijau:hover {
+  background-color: #2a9c41;
+  border-color: #2a9c41;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+.card-text {
+  font-size: 14px;
+}
+
+.cardwhyus {
+  height: 100%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.jumbotron {
+  background-color: #0d28a6;
+}
+
+.sectionSort {
+  position: relative;
+  transform: translateY(-50%);
+  background-color: white;
+}
+
+@media (max-width: 1024px) {
+  .sectionSort {
+    position: relative;
+    transform: translateY(0%);
+  }
+}
+
+@media (max-width: 768px) {
+  .sectionSort {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    transform: translateY(0);
+    width: 100%;
+  }
+}
